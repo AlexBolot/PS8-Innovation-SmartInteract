@@ -1,0 +1,23 @@
+//   idlj -fall -td ./src/main/java/ ./src/main/java/InteractionProcessor.idl
+
+module fr{
+    module polytech{
+        module pnsinnov{
+            module smartinteract{
+                module stubs{
+                    struct Replique{
+                        string content;
+                        string idDia;
+                    };
+                    interface InteractionProcessor{
+                        oneway void shutdown();
+                        Replique sendMessage(in Replique replique);
+                        //string beginDialogue(in string character);
+                        string beginDialogue(in string idCharacter);
+                        string getCharacterID(in string pseudo);
+                    };
+                };
+            };
+        };
+    };
+};
