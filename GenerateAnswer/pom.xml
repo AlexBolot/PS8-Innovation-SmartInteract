@@ -27,7 +27,7 @@
         <versions.openejb>7.0.2</versions.openejb>
         <!-- Testing dependencies -->
         <versions.maven.surefire>2.19.1</versions.maven.surefire>
-        <versions.junit>4.12</versions.junit>
+        <versions.junit>4.13.1</versions.junit>
         <versions.mockito>1.10.19</versions.mockito>
         <versions.cukespace>1.6.5</versions.cukespace>
     </properties>
